@@ -1,0 +1,24 @@
+.resistor {
+  width: 300px;
+  height: 100px;
+  border: 1px solid #000;
+  background: #FDF2E9;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+
+  .bar {
+    border: 1px solid #000;
+    width: 20px;
+    background: #fff;
+  }
+
+  .d-bar {
+    margin-left: 40px;
+  }
+
+}
+
+.value-label {
+  margin-top: 8px;
+}
